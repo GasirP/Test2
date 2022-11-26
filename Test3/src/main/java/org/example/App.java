@@ -32,9 +32,18 @@ switch (number) {
         break;
     case 3:
         System.out.println("Three");
+    default:
+        System.out.println("I dont know");
         break;
 }
-
+String massege =switch (number){
+            case 1-> "One";
+            case 0-> "Zero";
+            case 2-> "dwa";
+            case 3-> "trzy";
+            default -> "I dont know";
+};
+        System.out.println(massege);
     }
 
 }
